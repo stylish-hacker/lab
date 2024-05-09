@@ -1,0 +1,4 @@
+sudo rm /var/lib/dpkg/lock
+sudo dpkg --configure -a
+echo > ~/.bash_history
+history -c
